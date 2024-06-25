@@ -1,0 +1,59 @@
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.carousel-container {
+    max-width: 400px; /* Adjust the max-width to your preference */
+    margin: auto;
+}
+.content-list {
+    padding-left: 20px;
+}
+.content-list h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content-list p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.content-list hr {
+    border-top: 1px solid #000;
+}
+.navbar-brand img {
+    max-width: 30px; 
+    height: auto;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+.footer .logo {
+    margin-bottom: 20px;
+}
+.footer .nav {
+    margin-bottom: 10px;
+    display: inline-block; 
+}
+.footer .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.footer .nav a:hover {
+    text-decoration: underline;
+}
+.footer .copyright {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 14px;
+}
